@@ -3,8 +3,8 @@ from GazeDetector import GazeDetector
 
 def main():
     detector = GazeDetector()
-    detector.run_server()
-    # detector.run_local()
+    # detector.run_server()
+    detector.run_local()
 
 
 
